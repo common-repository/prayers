@@ -1,0 +1,177 @@
+/* project Prayers Wordpress Plugin
+ * copyright 2016 kaleb heitzman
+ */
+
+/* ==table of contents
+  1. colors
+  2. fonts
+  3. global settings
+  4. primary layout structure
+  5. secondary layout structure
+  6. tertiary layout struture
+  7. text-related treatments
+  8. images, links, and other salient features
+  9. general styles
+  10. general classes
+  11. miscellaneous stuff */
+
+/* ==colors
+ */
+
+/* ==fonts
+ */
+
+/* ==global settings (resets, scrollbars, etc.)
+ */
+
+/* ==primary layout structure (body, primary divs)
+ */
+
+/* ==secondary layout structure (header, footer, sidebar)
+ */
+
+/* ==tertiary layout structure (page regions, floats)
+ */
+
+ /* Meta Nav */
+.prayer-navigation .nav-tab-wrapper {
+ 	padding: 0;
+}
+.prayer-section {
+ 	padding-top: 6px;
+}
+.prayer-meta-textarea,
+.prayer-response-textarea {
+     width:         100%;
+     margin-bottom: 10px;
+}
+.prayer-response-textarea {
+ 	height: 100px;
+}
+.prayer-navigation {
+   overflow:hidden;
+}
+.prayer-navigation .column {
+   width: 33.3%;
+   float: left;
+}
+.prayer-navigation .align-right {
+ 	width: 30.3%;
+ 	margin-right: 3%;
+ 	text-align: right;
+}
+
+/* flash messages */
+.flash {
+  padding: 0.5em 1em;
+  margin-right: 2em;
+
+}
+.flash-success {
+	background: #C8FFD6;
+	border: 1px solid #9DD38D;
+}
+.flash-error {
+	background: #FFD4D8;
+	border: 1px solid #FF9A90;
+}
+
+/* ==text-related treatments (headings, paragraphs, lists)
+ */
+
+/* ==images, links, and other salient features (pre, code)
+ */
+
+/* ==general styles (forms, tables, buttons, acronyms et al)
+ */
+
+/* prayer meta box */
+.prayer-inline-radios label {
+  padding-right: 1em;
+}
+
+/* prayer custom post type columns */
+.column-title {
+ 	width: 200px;
+}
+.column-prayer_location {
+   width: 250px;
+}
+.column-taxonomy-prayer-category {
+ 	width: 100px;
+}
+.column-prayer_count {
+ 	width: 50px;
+}
+.column-prayer_answered {
+ 	width: 80px;
+}
+.column-prayer_anonymous {
+ 	width: 50px;
+}
+.prayer-location {
+	width: 250px;
+}
+.prayer-location .avatar {
+	float: left;
+	width: 35px;
+}
+.prayer-location .details {
+	width: 215px;
+	float: left;
+}
+
+/* prayer mailchimp buttons */
+.prayer-button {
+  border: 1px solid #34829B;
+  background: #44AACB;
+  color: #fff;
+  padding: .25em .75em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.prayer-button:hover {
+  border: 1px solid #34829B;
+  background: #4DBFE4;
+  color: #fff;
+  border-radius: 4px;
+}
+.button-sync {
+    width: 130px;
+    margin-right: .25em;
+}
+
+/* ==general classes (.clear, .center, .right, .left, etc.)
+ */
+
+/* ==miscellaneous stuff and template code
+ */
+
+/* Pending count button in sidebar */
+.prayer-update-count {
+ 	background: #C43B0E;
+ 	color: #fff;
+ 	display: inline-block;
+ 	margin: -5px 0 -5px 5px;
+ 	padding-bottom: 1px;
+ 	min-width: 20px;
+ 	border-radius: 2em;
+ 	font-size: 0.85em;
+ 	text-align: center;
+}
+
+ /* credits */
+.kh-credits {
+ 	display: inline-block;
+ 	width: 70px;
+ 	height: 70px;
+  direction: ltr;
+ 	text-indent: -9999em;
+ 	background-image: url('../../elements/images/kh-logo.png');
+ 	background-size: 70px 70px;
+ 	position: absolute;
+ 	right: 1.2em;
+ 	top: 1.5em;
+}
+
+/* created by kh | kheitzman.com */
